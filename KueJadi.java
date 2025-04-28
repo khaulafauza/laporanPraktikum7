@@ -17,7 +17,7 @@ public class KueJadi extends Kue {
     // Override metode toString() untuk menampilkan informasi kuejadi
     @Override
     public String toString() {
-        return String.format("%s, Jenis: KueJadi (%.0f buah), Harga Akhir: Rp%.0f", 
+        return String.format("%s, Jenis: KueJadi (%.0f buah), Harga Akhir: Rp%,.0f", 
         super.toString(), jumlah, hitungHarga());
     }
 }
