@@ -2,7 +2,7 @@
 public class KuePesanan extends Kue {
     double berat; // Berat kue dalam kilogram 
 
-    // Konstruktor KuePesanan untuk mengisi nama, harga, dan berat
+    // Konstruktor KuePesanan untuk mengisi nama, harga per kilogram, dan berat dalam kilogram
     public KuePesanan(String nama, double harga, double berat) {
         super(nama, harga); // Memanggil konstruktor superclass Kue
         this.berat = berat; // Inisialisasi berat kue
