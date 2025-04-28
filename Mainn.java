@@ -4,7 +4,7 @@ public class Mainn {
         Kue[] kueArray = new Kue[20]; // Membuat array yang akan menampung 20 objek Kue
 
         // Mengisi array dengan berbagai jenis kue (KuePesanan dan KueJadi)
-        kueArray[0] = new KuePesanan("Galaxy Dream Cake", 25000, 1.5); // harga per gram
+        kueArray[0] = new KuePesanan("Galaxy Dream Cake", 25000, 1.5); // harga per kilogram
         kueArray[1] = new KueJadi("Mocca Meow", 18000, 8); // harga perjumlah
         kueArray[2] = new KuePesanan("Teddy Bear Tart", 23000, 1);
         kueArray[3] = new KueJadi("Choco Dino Bite", 20000, 20);
