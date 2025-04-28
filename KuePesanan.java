@@ -21,7 +21,7 @@ public class KuePesanan extends Kue {
     // Override metode toString() untuk menampilkan informasi kue pesanan
     @Override
     public String toString() {
-        return String.format("%s, Jenis: KuePesanan (%.2f kg), Harga Akhir: Rp%.0f", 
+        return String.format("%s, Jenis: KuePesanan (%.2f kg), Harga Akhir: Rp%,.0f", 
             super.toString(), berat, hitungHarga());
     }
 }
