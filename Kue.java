@@ -1,7 +1,7 @@
 // Kelas abstrak Kue yang berfungsi untuk mendefinisikan jenis kue secara umum
 public abstract class Kue {
     String nama; // Nama kue
-    double harga; // Harga per unit (per gram atau per buah)
+    double harga; // Harga per unit (per kilogram atau per buah)
 
     // Konstruktor untuk memberikan nama dan harga saat membuat objek Kue
     public Kue(String nama, double harga) {
