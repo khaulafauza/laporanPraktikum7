@@ -2,7 +2,7 @@
 public class KueJadi extends Kue {
     double jumlah; // Jumlah kue dalam unit (misalnya 5 buah)
 
-    // Konstruktor KueJadi utk mengisi nama, harga, dan jumlah kue
+    // Konstruktor KueJadi untuk mengisi nama, harga per buah, dan jumlah kue
     public KueJadi(String nama, double harga, double jumlah) {
         super(nama, harga); // Memanggil konstruktor superclass Kue
         this.jumlah = jumlah; // Inisialisasi jumlah kue
